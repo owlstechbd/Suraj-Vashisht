@@ -1,0 +1,148 @@
+@media screen and (max-width: 720px){
+	header.active {
+		position: fixed;
+		top: 0;
+		background:#fff;
+	}
+	header.active li a{
+		color: #444;
+	}
+	.navbar-brand img{
+	width: 100px;
+	}
+	.nav-item{
+		padding: 10px 0;
+	}
+
+	#top-header{
+		display: none;
+	}
+	.hero-img img {
+		margin-top: 40px;
+	}
+
+	.about-content{
+		margin-top: 100px;
+	}
+	.about-content h5{
+		font-size: 20px;
+	}
+	.about-content h3{
+		font-size: 30px;
+	}
+	.about-content span{
+		font-size: 30px;
+		
+	}
+	
+	
+	.skill-box {
+		width: 100%;
+	}
+	
+	.protfolio-title h1{
+		font-size: 30px;
+	}
+	
+	
+	.protfolio-nav{
+		padding:10px 0 30px;
+
+	}
+	.entry {
+		width: 100%;
+	}
+	.protfolio-nav ul{
+		margin: 0;
+		padding: 0;
+		display: block;
+		justify-content: left;
+		cursor: pointer;
+		flex-grow: 1,
+
+	}
+	.protfolio-nav ul li{
+		padding: 5px;
+		color: #333;
+		font-family: 'Exo 2', sans-serif;
+		position: relative;
+		font-size:13px;
+	}
+	.protfolio-nav ul li.mixitup-control-active{
+		color: #f7071b;
+	}
+
+	.protfolio-nav ul li:after{
+		display: none;
+	}
+	.skill h1 {
+		font-size: 30px;
+	}
+	.counter h1{
+	font-size: 30px;
+
+	}
+	#Portfolio{
+		padding: 50px 0;
+	}
+	.contact h1{
+	font-size: 30px;
+	}
+	.top{
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+
+}
+.top a i{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #fff;
+
+}
+#work-experience{
+	padding: 50px 0 ;
+}
+.experience{
+	height: auto;
+	margin-bottom: 30px;
+}
+.work-experience h1{
+	margin-bottom: 60px;
+	font-size: 30px;
+}
+.work-experience h1 span{
+	line-height: 26px;
+	font-size: 30px;
+}
+.experience:hover{
+	transform: translateY(-20px);
+}
+.education{
+	margin: 50px 0 0 0;
+}
+.education h1{
+	font-size: 30px;
+}
+
+.education-inner{
+	padding: 20px;
+	font-size: 14px;
+}
+.education-left h3{
+	font-size: 18px;
+	font-weight: 600;
+}
+.education-left h4{
+	font-size: 14px;
+}
+.education-right{
+	float: left;
+	padding: 20px 0;
+	line-height: 24px;
+}
+header.active a{
+	color: #333;
+}
+}
